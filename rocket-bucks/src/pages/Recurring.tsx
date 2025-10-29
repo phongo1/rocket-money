@@ -221,41 +221,6 @@ const Recurring = () => {
 
         {/* Sidebar */}
         <div className="space-y-6">
-          {/* Cancel subscription card */}
-          <div className="bg-gradient-to-br from-gray-900 to-gray-800 rounded-2xl shadow-sm p-6 text-white">
-            <h4 className="font-bold mb-2">Looking to cancel a subscription?</h4>
-            <p className="text-sm text-gray-300 mb-4">
-              Our concierge team can cancel your unwanted subscriptions for you.
-            </p>
-            <button className="w-full py-3 bg-white text-gray-900 rounded-lg font-medium hover:bg-gray-100">
-              Start a cancellation
-            </button>
-          </div>
-
-          {/* My requests */}
-          <div className="bg-white rounded-2xl shadow-sm p-6">
-            <div className="flex items-center gap-2 mb-4">
-              <span className="w-6 h-6 bg-blue-600 text-white rounded-full flex items-center justify-center text-xs font-bold">
-                1
-              </span>
-              <h3 className="text-lg font-bold text-gray-900">My requests</h3>
-            </div>
-            <p className="text-sm text-gray-600 mb-4">
-              Below are your active bill negotiations and cancellations that our concierge team is working on for you.
-            </p>
-            <div className="bg-blue-50 rounded-lg p-4 flex gap-3">
-              <div className="w-10 h-10 bg-blue-600 rounded-full flex items-center justify-center text-white font-bold text-xs">
-                AT
-              </div>
-              <div>
-                <p className="text-sm font-medium text-gray-900 mb-1">Bill Negotiation</p>
-                <p className="text-xs text-gray-600">
-                  We are currently working on your AT&T bill negotiation. You'll receive an update once it's complete.
-                </p>
-              </div>
-            </div>
-          </div>
-
           {/* Monthly Breakdown */}
           <div className="bg-white rounded-2xl shadow-sm p-6">
             <h3 className="text-lg font-bold text-gray-900 mb-4">Monthly Breakdown</h3>
